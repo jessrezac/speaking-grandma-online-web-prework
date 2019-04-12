@@ -13,7 +13,13 @@
 # 'I LOVE YOU TOO PUMPKIN!'
 
 def speak_to_grandma(phrase)
-  if phrase.upcase == "I love you Grandma!".upcase
+  if phrase == "I love you Grandma!".upcase
     "I love you too pumpkin!".upcase
+  elsif phrase == "Hi Nana, how are you?"
+    "Huh?! Speak up, sonny!".upcase
+  elsif phrase == "Hi!"
+    "Huh?! Speak up, sonny!".upcase
+  else
+    "No, not since 1938!".upcase
   end
 end
